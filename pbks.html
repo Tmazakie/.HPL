@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Punjab Kings Page">
+    <title>Punjab Kings</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #ffffff;
+            background: url('images/pbks-logo.png') no-repeat center center fixed;
+            background-size: cover;
+            overflow-x: hidden;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            color: #e40046; /* Punjab Kings' theme color */
+            text-shadow: 0 0 10px #e40046;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 0 20px #e40046;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .futuristic-box {
+            margin-top: 30px;
+            padding: 20px;
+            background: linear-gradient(to right, #e40046, #ff3366);
+            color: black;
+            text-shadow: 0 0 10px #000000;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #e40046, 0 0 25px #ff3366;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .futuristic-box h2 {
+            font-size: 2em;
+            margin: 0 0 15px;
+            text-shadow: 0 0 10px #000000;
+        }
+        .futuristic-box ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.2em;
+        }
+        .futuristic-box ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            color: black;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #e40046;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .futuristic-box ul li:hover {
+            transform: scale(1.05);
+            background: #e40046;
+            color: black;
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Punjab Kings</h1>
+    </header>
+    <main>
+        <p>Welcome to the official page of Punjab Kings, the bold and determined team of the HPL. Stay tuned for updates, match highlights, and exclusive content.</p>
+        <div class="futuristic-box">
+            <h2>Matches</h2>
+            <ul>
+                <li onclick="window.location.href='pbksvsdc.html'">vs Delhi Capitals (DC)</li>
+                <li onclick="window.location.href='pbksvssrh.html'">vs Sunrisers Hyderabad (SRH)</li>
+                <li onclick="window.location.href='pbksvslsg.html'">vs Lucknow Super Giants (LSG)</li>
+                <li onclick="window.location.href='pbksvscsk.html'">vs Chennai Super Kings (CSK)</li>
+                <li onclick="window.location.href='pbksvsmi.html'">vs Mumbai Indians (MI)</li>
+                <li onclick="window.location.href='pbksvsrcb.html'">vs Royal Challengers Bangalore (RCB)</li>
+            </ul>
+        </div>
+    </main>
+    
+    <!-- Background Music -->
+    <audio autoplay loop>
+        <source src="audio/pbks-theme.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>

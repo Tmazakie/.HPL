@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sunrisers Hyderabad Page">
+    <title>Sunrisers Hyderabad</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #ffffff;
+            background: url('images/srh-logo.png') no-repeat center center fixed;
+            background-size: cover;
+            overflow-x: hidden;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            color: #f25c05; /* Sunrisers Hyderabad's theme color */
+            text-shadow: 0 0 10px #f25c05;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 0 20px #f25c05;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .futuristic-box {
+            margin-top: 30px;
+            padding: 20px;
+            background: linear-gradient(to right, #f25c05, #ff8717);
+            color: black;
+            text-shadow: 0 0 10px #000000;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #f25c05, 0 0 25px #ff8717;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .futuristic-box h2 {
+            font-size: 2em;
+            margin: 0 0 15px;
+            text-shadow: 0 0 10px #000000;
+        }
+        .futuristic-box ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.2em;
+        }
+        .futuristic-box ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            color: black;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #f25c05;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .futuristic-box ul li:hover {
+            transform: scale(1.05);
+            background: #f25c05;
+            color: black;
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sunrisers Hyderabad</h1>
+    </header>
+    <main>
+        <p>Welcome to the official page of Sunrisers Hyderabad, the vibrant and competitive team of the HPL. Stay tuned for updates, match highlights, and exclusive content.</p>
+        <div class="futuristic-box">
+            <h2>Matches</h2>
+            <ul>
+                <li onclick="window.location.href='srhvsrr.html'">vs Rajasthan Royals (RR)</li>
+                <li onclick="window.location.href='srhvspbks.html'">vs Punjab Kings (PBKS)</li>
+                <li onclick="window.location.href='srhvskkr.html'">vs Kolkata Knight Riders (KKR)</li>
+                <li onclick="window.location.href='srhvsdc.html'">vs Delhi Capitals (DC)</li>
+                <li onclick="window.location.href='srhvscsk.html'">vs Chennai Super Kings (CSK)</li>
+                <li onclick="window.location.href='srhvsrcb.html'">vs Royal Challengers Bangalore (RCB)</li>
+            </ul>
+        </div>
+    </main>
+    
+    <!-- Background Music -->
+    <audio autoplay loop>
+        <source src="audio/srh-theme.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>

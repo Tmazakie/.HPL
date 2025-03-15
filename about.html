@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About the HPL League">
+    <title>About HPL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: #00ffff;
+            text-shadow: 0 0 8px #00ffff;
+        }
+        header {
+            background: black;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Monoton', cursive;
+            font-size: 3em;
+            animation: glowEffect 5s linear infinite;
+            margin: 0;
+            color: #00ffff;
+        }
+        @keyframes glowEffect {
+            0%, 100% {
+                text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+            }
+            50% {
+                text-shadow: 0 0 25px #00ffff, 0 0 50px #00ffff;
+            }
+        }
+        nav {
+            background: black;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        nav a {
+            color: #00ffff;
+            text-decoration: none;
+            text-shadow: 0 0 8px #00ffff;
+            padding: 10px;
+            border: 2px solid #00ffff;
+            border-radius: 5px;
+            font-family: 'Orbitron', sans-serif;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        nav a:hover {
+            background-color: #00ffff;
+            color: black;
+            box-shadow: 0 0 15px #00ffff;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .content-section {
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+            border: 2px solid #00ffff;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #e0ffff;
+        }
+        footer {
+            background: black;
+            color: #00ffff;
+            text-shadow: 0 0 8px #00ffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About the HPL</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="teams.html">Teams</a>
+        <a href="matches.html">Matches</a>
+    </nav>
+    <main>
+        <div class="content-section">
+            <h2>The HPL Journey</h2>
+            <p>The HPL (Hynish Premier League) is a unique and competitive league that brings together the best talent in a dynamic and futuristic format. Established with the vision to inspire innovation and camaraderie, HPL is more than just a league—it’s a celebration of strategy, skill, fun, and sportsmanship.</p>
+        </div>
+        <div class="content-section">
+            <h2>What Makes HPL Special?</h2>
+            <p>Each team is a powerhouse of talent, representing a perfect blend of determination and passion. With glowing visuals, thrilling matches, and an ever-growing fanbase, the HPL continues to redefine what it means to be part of a competitive league.</p>
+        </div>
+        <div class="content-section">
+            <h2>Join the Legacy</h2>
+            <p>Whether you're here to support your favorite team or to witness history in the making, the HPL promises an experience like no other. Together, let's keep pushing boundaries and making memories.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 HPL. All rights reserved.</p>
+    </footer>
+</body>
+</html>

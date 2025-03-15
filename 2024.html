@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HPL Teams for 2024">
+    <title>HPL Teams 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(to bottom, #000428, #004e92);
+            color: #00ffff;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: black;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+        }
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+        .team-card {
+            width: 300px;
+            border: 2px solid #00ffff;
+            border-radius: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            box-shadow: 0 0 15px #00ffff, 0 0 25px #00ffff;
+        }
+        .team-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .team-card h2 {
+            color: #00ffff;
+            margin: 15px 0;
+        }
+        .see-captain-btn {
+            font-size: 1em;
+            color: #00ff00;
+            background: transparent;
+            border: 2px solid #00ff00;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-shadow: 0 0 8px #00ff00;
+            transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+        }
+        .see-captain-btn:hover {
+            background-color: #00ff00;
+            color: black;
+            box-shadow: 0 0 15px #00ff00, 0 0 25px #00ff00, 0 0 35px #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HPL Teams 2024</h1>
+    </header>
+    <div class="team-container">
+        <div class="team-card">
+            <img src="images/csk-logo.png" alt="CSK Logo">
+            <h2>Chennai Super Kings</h2>
+            <button class="see-captain-btn" onclick="showCaptain('Tejas')">See Captain</button>
+        </div>
+        <div class="team-card">
+            <img src="images/mi-logo.png" alt="MI Logo">
+            <h2>Mumbai Indians</h2>
+            <button class="see-captain-btn" onclick="showCaptain('Aarav')">See Captain</button>
+        </div>
+        <div class="team-card">
+            <img src="images/lsg-logo.png" alt="LSG Logo">
+            <h2>Lucknow Super Giants</h2>
+            <button class="see-captain-btn" onclick="showCaptain('Vignesh')">See Captain</button>
+        </div>
+        <!-- Add remaining teams similarly -->
+    </div>
+    <script>
+        function showCaptain(captainName) {
+            alert(`The captain for this team in 2024 is ${captainName}.`);
+        }
+    </script>
+</body>
+</html>

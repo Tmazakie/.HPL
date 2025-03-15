@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HPL Statistics">
+    <title>HPL Statistics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(to right, #000428, #004e92);
+            color: #00ffff;
+            text-align: center;
+        }
+        header {
+            background: black;
+            padding: 20px;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+            animation: glowEffect 2s infinite;
+        }
+        @keyframes glowEffect {
+            0%, 100% {
+                text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+            }
+            50% {
+                text-shadow: 0 0 25px #00ffff, 0 0 50px #00ffff;
+            }
+        }
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .stat-box {
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #00ffff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 15px #00ffff, 0 0 25px #00ffff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        .stat-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px #00ffff, 0 0 50px #00ffff;
+        }
+        .stat-box h2 {
+            font-size: 1.5em;
+            margin: 0 0 15px;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        .stat-box p {
+            font-size: 1.2em;
+            margin: 0;
+            color: #ffffff;
+        }
+        footer {
+            margin-top: 20px;
+            background: black;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HPL Statistics</h1>
+    </header>
+    <div class="stats-container">
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Most Runs</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Most Wickets</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Most Economical Bowler</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Most 4's</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Most 6's</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Most POTM</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Highest Score</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Best Bowling Figure</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Batting Average</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Bowling Average</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Highest Strike Rate</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Most 50's</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>Most 70's</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>3-Wicket Haul</h2>
+            <p>Placeholder</p>
+        </div>
+        <div class="stat-box" onclick="window.location.href='most_runs.html'">
+            <h2>5-Wicket Haul</h2>
+            <p>Placeholder</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 HPL. All rights reserved.</p>
+    </footer>
+</body>
+</html>

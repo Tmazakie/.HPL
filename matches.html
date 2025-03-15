@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HPL Matches">
+    <title>HPL Matches</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(to bottom, #000428, #004e92);
+            color: #00ffff;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: black;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+            animation: glowEffect 2s infinite;
+        }
+        @keyframes glowEffect {
+            0%, 100% {
+                text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+            }
+            50% {
+                text-shadow: 0 0 25px #00ffff, 0 0 50px #00ffff;
+            }
+        }
+        table {
+            width: 90%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #00ffff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #00ffff;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #00ffff;
+            color: #ffffff;
+            font-size: 1.2em;
+        }
+        th {
+            background: #004e92;
+            color: #00ffff;
+            font-size: 1.3em;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        td {
+            background: rgba(0, 0, 0, 0.8);
+        }
+        tr:hover td {
+            background: #003b64;
+            transition: 0.3s;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: black;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HPL Match Schedule</h1>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Match Number</th>
+                <th>Date</th>
+                <th>Day</th>
+                <th>Team 1</th>
+                <th>Team 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- First set of matches -->
+            <tr>
+                <td>1</td>
+                <td>16/02/24</td>
+                <td>Friday</td>
+                <td>MI</td>
+                <td>CSK</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>17/02/24</td>
+                <td>Saturday</td>
+                <td>RCB</td>
+                <td>KKR</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>18/02/24</td>
+                <td>Sunday</td>
+                <td>RR</td>
+                <td>SRH</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>19/02/24</td>
+                <td>Monday</td>
+                <td>DC</td>
+                <td>PBKS</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>20/02/24</td>
+                <td>Tuesday</td>
+                <td>LSG</td>
+                <td>GT</td>
+            </tr>
+            <!-- Second set of matches from the image -->
+            <tr>
+                <td>14</td>
+                <td>29/02/24</td>
+                <td>Thursday</td>
+                <td>PBKS</td>
+                <td>LSG</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>01/03/24</td>
+                <td>Friday</td>
+                <td>GT</td>
+                <td>RCB</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>02/03/24</td>
+                <td>Saturday</td>
+                <td>MI</td>
+                <td>RR</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>03/03/24</td>
+                <td>Sunday</td>
+                <td>CSK</td>
+                <td>PBKS</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>04/03/24</td>
+                <td>Monday</td>
+                <td>KKR</td>
+                <td>GT</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>05/03/24</td>
+                <td>Tuesday</td>
+                <td>RCB</td>
+                <td>LSG</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>06/03/24</td>
+                <td>Wednesday</td>
+                <td>SRH</td>
+                <td>DC</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>07/03/24</td>
+                <td>Thursday</td>
+                <td>MI</td>
+                <td>PBKS</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>08/03/24</td>
+                <td>Friday</td>
+                <td>CSK</td>
+                <td>SRH</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>09/03/24</td>
+                <td>Saturday</td>
+                <td>KKR</td>
+                <td>LSG</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>10/03/24</td>
+                <td>Sunday</td>
+                <td>RR</td>
+                <td>GT</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>11/03/24</td>
+                <td>Monday</td>
+                <td>RCB</td>
+                <td>PBKS</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>12/03/24</td>
+                <td>Tuesday</td>
+                <td>MI</td>
+                <td>DC</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>13/03/24</td>
+                <td>Wednesday</td>
+                <td>CSK</td>
+                <td>LSG</td><td>Match 29</td>
+                <td>15/03/24</td>
+                <td>Friday</td>
+                <td>RCB (Royal Challengers Bangalore)</td>
+                <td>SRH (Sunrisers Hyderabad)</td>
+            </tr>
+            <tr>
+                <td>Match 30</td>
+                <td>16/03/24</td>
+                <td>Saturday</td>
+                <td>DC (Delhi Capitals)</td>
+                <td>GT (Gujarat Titans)</td>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+        <p>&copy; 2025 HPL. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucknow Super Giants Page">
+    <title>Lucknow Super Giants</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #ffffff;
+            background: url('images/lsg-logo.png') no-repeat center center fixed;
+            background-size: cover;
+            overflow-x: hidden;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            color: #00a1ff; /* LSG's theme color */
+            text-shadow: 0 0 10px #00a1ff;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 0 20px #00a1ff;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .futuristic-box {
+            margin-top: 30px;
+            padding: 20px;
+            background: linear-gradient(to right, #00a1ff, #0057a7);
+            color: black;
+            text-shadow: 0 0 10px #000000;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #00a1ff, 0 0 25px #0057a7;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .futuristic-box h2 {
+            font-size: 2em;
+            margin: 0 0 15px;
+            text-shadow: 0 0 10px #000000;
+        }
+        .futuristic-box ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.2em;
+        }
+        .futuristic-box ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            color: black;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #00a1ff;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .futuristic-box ul li:hover {
+            transform: scale(1.05);
+            background: #00a1ff;
+            color: black;
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lucknow Super Giants</h1>
+    </header>
+    <main>
+        <p>Welcome to the official page of Lucknow Super Giants, the strategic and powerful team of the HPL. Stay tuned for updates, match highlights, and exclusive content.</p>
+        <div class="futuristic-box">
+            <h2>Matches</h2>
+            <ul>
+                <li onclick="window.location.href='lsgvsgt.html'">vs Gujarat Titans (GT)</li>
+                <li onclick="window.location.href='lsgvsmi.html'">vs Mumbai Indians (MI)</li>
+                <li onclick="window.location.href='lsgvspbks.html'">vs Punjab Kings (PBKS)</li>
+                <li onclick="window.location.href='lsgvsrcb.html'">vs Royal Challengers Bangalore (RCB)</li>
+                <li onclick="window.location.href='lsgvskkr.html'">vs Kolkata Knight Riders (KKR)</li>
+                <li onclick="window.location.href='lsgvscsk.html'">vs Chennai Super Kings (CSK)</li>
+            </ul>
+        </div>
+    </main>
+    
+    <!-- Background Music -->
+    <audio autoplay loop>
+        <source src="audio/lsg-theme.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
